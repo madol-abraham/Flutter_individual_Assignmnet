@@ -42,20 +42,35 @@ The Food Recipe App was developed to offer a convenient way for users to explore
 The codebase is organized as follows:
 
 flutter_Recipe_Api/
+
 ├── lib/
-│   ├── main.dart               # Entry point of the application
-│   ├── screens/                # Contains screen widgets for the app
-│   │   ├── home_screen.dart    # Home page displaying recipe list
-│   │   ├── search_screen.dart  # Search page with filtering capabilities
-│   │   ├── details_screen.dart # Detailed view of a single recipe
-│   ├── widgets/                # Reusable UI components
-│   ├── services/               # API and network-related code
-│   │   ├── api_service.dart    # Handles API requests and responses
-│   └── models/                 # Data models for parsing API responses
-│       ├── recipe.dart         # Recipe model
-│       ├── ingredient.dart     # Ingredient model
-├── pubspec.yaml                # Dependency configurations
-└── README.md                   # Documentation for the project
+
+│   ├── main.dart # Entry point of the application
+
+│   ├── screens/                
+
+│   │   ├── home_screen.dart    
+
+│   │   ├── search_screen.dart  
+
+│   │   ├── details_screen.dart 
+
+│   ├── widgets/    
+
+│   ├── services/   
+
+│   │   ├── api_service.dart 
+
+│   └── models/     
+
+│       ├── recipe.dart   
+
+│       ├── ingredient.dart 
+
+├── pubspec.yaml   
+
+└── README.md  
+
 
 
 Critical Components
